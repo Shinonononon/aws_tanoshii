@@ -2,7 +2,7 @@
 lock "~> 3.10"    # 1
 
 set :application, "task_app"    # 2
-set :repo_url, "git@github.com:Shinonononon/aws_tanoshii.git"    # 3
+set :repo_url, "https://github.com/Shinonononon/aws_tanoshii.git"    # 3
 set :linked_files, %w{config/secrets.yml}   # 4
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}   # 5
 set :keep_releases, 5   # 6
